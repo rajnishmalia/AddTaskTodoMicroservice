@@ -13,7 +13,7 @@ spec:
         app: todo-add-task
     spec:
       containers:
-      - name: todo-add-tasks-api
+      - name: todo-add-task
         image: acrdevtodoapp20250910.azurecr.io/todo-add-task:v1
         ports:
         - containerPort: 8000
